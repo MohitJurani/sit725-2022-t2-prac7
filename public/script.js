@@ -118,6 +118,13 @@ const addProjectToApp = (project) => {
   })
 }
 
+let socket = io();
+
+socket.on('number', (msg) => {
+  console.log(msg);
+  $("#soc").html("Welcome to BedRoomLinen "+ msg);
+})
+
 
 const submitForm = () => {
   let formData = {};

@@ -5,6 +5,9 @@
 .nav-wrapper {
     background-color: black;
 }
+.page-footer {
+    background-color: rgb(36, 35, 35);
+}
 .user-image-size {
     height: 56px;
     margin: 4px 0;
